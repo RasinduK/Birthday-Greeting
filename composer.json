@@ -1,0 +1,21 @@
+{
+    "name": "rasindu/birthday-greeting",
+    "description": "A web app to send birthday greetings",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rasindu\\BirthdayGreeting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rasindu",
+            "email": "rasindukaushaliya245@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
